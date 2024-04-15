@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7914437629127213237}
   - component: {fileID: 8741742924255485367}
   - component: {fileID: 8522294158317267575}
-  m_Layer: 0
+  - component: {fileID: 7325241101960914056}
+  m_Layer: 7
   m_Name: CoinObject
   m_TagString: CanBePickedUp
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 61935685890016003}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28004587, y: -1.43, z: -9.915733}
+  m_LocalPosition: {x: -0.28004587, y: -1.43, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -142,3 +143,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
+--- !u!114 &7325241101960914056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61935685890016003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38ad8f203932b84ba7b0d802bb4649a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 751d16faee4f9494bab12831e71f4851, type: 2}
