@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1be5cf0d9f974b48b473545480e8fa0, type: 3}
-  m_Name: Item
+  m_Name: Heart
   m_EditorClassIdentifier: 
-  objectName: coin
-  sprite: {fileID: 2078397686, guid: 9ef79f2b30fd0f640a7c286a188de2f7, type: 3}
-  quantity: 0
-  stackable: 1
-  itemType: 0
+  objectName: heart
+  sprite: {fileID: 1994596263, guid: 9ef79f2b30fd0f640a7c286a188de2f7, type: 3}
+  quantity: 1
+  stackable: 0
+  itemType: 1

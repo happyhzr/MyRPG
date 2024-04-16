@@ -12,8 +12,24 @@ public class Player : Character
             if (hitObject != null)
             {
                 Debug.Log($"it: {hitObject.objectName}");
+                switch (hitObject.itemType)
+                {
+                    case Item.ItemType.COIN:
+                        break;
+                    case Item.ItemType.HEALTH:
+                        AdjustHitPoints(hitObject.quantity);
+                        break;
+                    default:
+                        break;
+                }
                 collision.gameObject.SetActive(false);
             }
         }
+    }
+
+    private void AdjustHitPoints(int amount)
+    {
+        hitPoints += amount;
+        Debug.Log($"Adjusted hitpoints by: {amount}. New value: {hitPoints}");
     }
 }
